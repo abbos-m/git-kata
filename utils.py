@@ -5,7 +5,7 @@ def load_female_passengers(file_path):
     titanic_data = pd.read_csv(file_path)
     
     # Filter only the female passengers
-    female_passengers = titanic_data[titanic_data['sex'] == 'female']
+    female_passengers = titanic_data[titanic_data['sex'] == 'male']
     
     return female_passengers
 
